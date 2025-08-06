@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ec9cf5039f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
 </head>
 <body>
-    
+<header>
+    <nav class="flex items-center justify-between py-2">
+    <div class="logo">
+        <img src="image/logo.png" alt="Logo" class="h-10">
+    </div>
+    <div class="menu">
+        <ul class="md:flex sm:flex-row justify-center space-x-6 items-center">
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+    </div>
+    </nav>
+   <section class="banner pt-10 px-4 md:px-10 max-w-screen-xl mx-auto">
+  <div class="flex flex-col-reverse md:flex-row items-center">
+    <div class="b-content w-full md:w-1/2 pt-6 md:pt-10">
+      <h1 class="md:text-5xl font-bold">
+        ALWAYS <span class="b-t">FRESH <br>FLOWERS</span>
+      </h1>
+      <p class="mt-4">
+        Indulge your senses with the beauty and fragrance of our fresh 
+        flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+      </p>
+    </div>
+    <div class="b-img w-full md:w-1/2 flex justify-center md:justify-end mb-6 md:mb-0">
+      <img src="image/hero-flower.png" alt="Fresh Flowers" class="max-w-full h-auto">
+    </div>
+  </div>
+</section>
+
+</header>
 </body>
 </html>

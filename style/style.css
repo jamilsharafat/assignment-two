@@ -1,0 +1,22 @@
+body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  margin: 0 50px;
+
+
+}
+
+  
+
+
+/*banner*/
+.b-content h1{
+    font-family: "Noto Serif", serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+.b-t{
+    color: #E95A08;
+}
